@@ -1,0 +1,258 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ley's Final Project - POST MALONE</title>
+
+    <!-- Material Icons and Google Fonts -->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600&family=Poppins:wght@400;500;600&display=swap" rel="stylesheet">
+
+    <!-- Materialize CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+
+    <!-- Custom CSS -->
+    <style>
+        body {
+            font-family: 'Poppins', sans-serif;
+            background-color: #000000;
+            color: white;
+            margin: 0;
+            padding: 0;
+        }
+
+        /* Sidebar */
+        .sidebar {
+            position: fixed;
+            top: 0;
+            left: 0;
+            height: 100%;
+            width: 220px;
+            background-color: #121212;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            padding-top: 20px;
+            color: white;
+        }
+
+        .sidebar a {
+            color: white;
+            display: block;
+            padding: 10px 20px;
+            text-decoration: none;
+            width: 100%;
+            text-align: left;
+        }
+
+        .sidebar a:hover, .sidebar a.active {
+            background-color:#dfcb14; /* Yellow */
+        }
+
+        /* Content Layout */
+        .main-content {
+            margin-left: 220px;
+            padding: 20px;
+        }
+
+        .hero {
+            height: 100vh;
+            background: url('mainposty.jpg') center/cover no-repeat;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+            text-shadow: #000000;
+            font-family: 'Poppins', sans-serif;
+            text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.5);
+            color: #000000; 
+            position: relative;
+        }   
+        
+
+    
+
+        .btn-large {
+            background-color:#dfcb14; /* Yellow */
+            border-radius: 30px;
+            padding: 15px 30px;
+            font-size: 1.2rem;
+            text-transform: uppercase;
+        }
+
+        /* Section Titles */
+        h2.green-text {
+            color:#dfcb14; /* Yellow */
+            font-family: 'Poppins', sans-serif;
+            font-weight: 600;
+        }
+
+        /* About Section */
+        .about {
+            background-color: #121212;
+            padding: 50px 0;
+            text-align: center;
+        }
+
+        .about img {
+            max-width: 100%;
+            height: auto;
+            border-radius: 10px;
+            border: 3px solid #dfcb14; /* Yellow */
+            margin-top: 20px;
+        }
+
+        /* Music Section */
+        .music .card {
+            border-radius: 10px;
+            background-color: #121212;
+        }
+
+        /* Footer */
+        footer {
+            background-color: #121212;
+            color: white;
+            text-align: center;
+            padding: 20px;
+            font-size: 1rem;
+        }
+    </style>
+</head>
+
+<body>
+
+    <!-- Sidebar Navigation -->
+    <div class="sidebar">
+            <div class="parallax"></div>
+            <div class="content">
+                <h1>Post Malone</h1>
+            </div>
+
+        <a href="#home" class="active">Home</a>
+        <a href="#profile">Profile</a>
+        <a href="#discography">Discography</a>
+        <a href="#collections">Collections</a>
+        <div class="divider" style="width: 80%;"></div>
+        <a href="https://twitter.com/PostMalone" target="_blank"><i class="fa-brands fa-twitter"></i> Twitter</a>
+        <a href="https://www.instagram.com/PostMalone/" target="_blank"><i class="fa-brands fa-instagram"></i> Instagram</a>
+        <a href="https://www.youtube.com/channel/UCeLHszkByNZtPKcaVXOCOQQ"><i class="fa-brands fa-youtube"></i> YouTube</a>
+        <a href="https://www.tiktok.com/@postmalone" target="_blank"><i class="fa-brands fa-tiktok"></i> TikTok</a>
+    </div>
+
+    <!-- Main Content -->
+    <div class="main-content">
+        <!-- Home Section -->
+        <section id="home" class="hero">
+            <div>
+                <h1>Post Malone</h1>
+
+                <p class="flow-text">"You just go with the flow because life is just all about how you feel." - Post Malone.</p>
+                <a href="#music" class="btn-large waves-effect waves-light black">Click here to VIBE!</a>
+            </div>
+        </section>
+
+        <!-- Profile Section -->
+        <section id="profile" class="about">
+            <h2 class="yellow-text">All about Posty</h2>
+             <!-- About Section -->
+    <section id="about" class="about">
+        <div class="container">
+            <h2 class="light blue-text">Austin Richard Post. A.K.A "Post Malone"</h2>
+            <div class="divider"></div>
+            <img src="posty3.jpg" alt="PM image"> <!-- Replace with actual image URL -->
+            <p>Born on July 4, 1995 as Austin Richard Post in Syracuse, New York, the soon-to-be rapper, singer, and songwriter was exposed to music early on. His father, Rich Post, used to be a DJ and so had his son listen to all kinds of music genres, such as hip hop, country, and rock. 
+                
+              </p>
+                <img src="posty.jpg" alt="PM image"> <!-- Replace with actual image URL -->
+                <p>He claimed that his stage name, Post Malone, was chosen sometime when he was 14 or 15. When he dropped out of college, Post and a few of his friends including game streamer Jason Probst, moved to Los Angeles. This would prove to be serendipitous because that’s where he would meet some of the big names that would help launch his career.</p>
+                <img src="posty2.jpg" alt="PM image"> <!-- Replace with actual image URL -->
+                <p>  In 2015, after meeting record producers FKi 1st and Sauce Lord Rich, Post would record the single ‘White Iverson’. The song alludes to basketball player Allen Iverson, but also has themes about fame and working hard. It was uploaded to Post’s SoundCloud in February 2015, and a YouTube music video followed in July of the same year.</p>
+                <img src="posty5.jpg" alt="PM image"> <!-- Replace with actual image URL -->
+                <p> Soon after, it gained one million views and was also praised by Mac Miller and Wiz Khalifa. Of course, not everyone loved his music. However, his online fame would later catch the attention of record labels, and propel him to the limelight.</p>
+        </div>
+    </section>
+        </section>
+
+       <!-- Music Section -->
+    <section id="music" class="container section music">
+        <h2 class="yellow-text">Posty's Top 3 Albums</h2>
+        <div class="divider"></div>
+        <div class="row">
+            <div class="col s12 m4 l4">
+                <div class="card">
+                    <div class="card-image">
+                        <img src= "stoney.jpg" alt="Stoney"> 
+                    </div>
+                    <div class="card-content">
+                        <p>Stoney.</p>
+                    </div>
+                    <div class="card-action">
+                        <a href="https://open.spotify.com/album/5s0rmjP8XOPhP6HhqOhuyC?si=q3aJpANURo2V-T9Skd1SGg" class="btn waves-effect waves-light">Play Now!</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col s12 m4 l4">
+                <div class="card">
+                    <div class="card-image">
+                        <img src="bb.jpg" alt="Beerbongs and Bentleys Cover"> 
+                    </div>
+                    <div class="card-content">
+                        <p>beerbongs & bentleys.</p>
+                    </div>
+                    <div class="card-action">
+                        <a href="https://open.spotify.com/album/6trNtQUgC8cgbWcqoMYkOR?si=gt1z5RrLSjynEZUL-k9N0A" class="btn waves-effect waves-light">Play Now!</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col s12 m4 l4">
+                <div class="card">
+                    <div class="card-image">
+                        <img src="album1.jpg" alt="Endless Album Cover"> 
+                    </div>
+                    <div class="card-content">
+                        <p>Holleywood's Bleeding.</p>
+                    </div>
+                    <div class="card-action">
+                        <a href="https://open.spotify.com/album/4g1ZRSobMefqF6nelkgibi?si=y8djPmafQYOTUXgeUfHupA" class="btn waves-effect waves-light">Play Now!</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+        <!-- Collections Section -->
+        <section id="collections" class="about">
+            <h2 class="gray white-text">Post Malone's popular sound tracks.</h2>
+            <iframe style="border-radius:12px" src="https://open.spotify.com/embed/track/0t3ZvGKlmYmVsDzBJAXK8C?utm_source=generator" width="100%" height="352" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+            <iframe style="border-radius:12px" src="https://open.spotify.com/embed/track/3KkXRkHbMCARz0aVfEt68P?utm_source=generator" width="100%" height="352" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+            <iframe style="border-radius:12px" src="https://open.spotify.com/embed/track/21jGcNKet2qwijlDFuPiPb?utm_source=generator" width="100%" height="352" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+            <iframe style="border-radius:12px" src="https://open.spotify.com/embed/track/4H7WNRErSbONkM06blBoGc?utm_source=generator" width="100%" height="352" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+        </section>
+    </div>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2024 Ley's Final Project - POST MALONE Website. All rights reserved.</p>
+    </footer>
+
+<!-- Floating Action Button -->
+<div class="fixed-action-btn">
+    <a href="#top" class="btn-floating btn-large"><i class="fa-solid fa-heart"></i>></i></a>
+
+
+    <!-- Materialize & jQuery Scripts -->
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+    <script>
+        $(document).ready(function() {
+            // Initialize sidenav for mobile view
+            $('.sidenav').sidenav();
+        });
+    </script>
+
+</body>
+
+</html>
