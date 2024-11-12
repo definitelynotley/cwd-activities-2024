@@ -1,0 +1,2 @@
+# cwd-activities-2024
+CWD - PORTFOLIO AND FINAL PROJECT
